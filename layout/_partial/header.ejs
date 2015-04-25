@@ -13,7 +13,7 @@
         </div>
       </nav>
       <div id="search-form-wrap">
-        <%- search_form({button: ' '}) %>
+        <%- search_form_baidu({button: ' '}) %>
       </div>
     </div>
   </div>
@@ -24,7 +24,7 @@
         <td><a class="main-nav-link" href="<%- url_for(theme.menu[i]) %>"><%= i %></a></td>
       <% } %>
       <td>
-        <%- search_form() %>
+        <%- search_form_baidu() %>
       </td>
       </tr>
     </table>
